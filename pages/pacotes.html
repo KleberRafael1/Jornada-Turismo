@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornada - Pacotes de Viagem </title>
+    <link rel="shortcut icon" href="/assets/logos/favicon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+             
+    <link rel="stylesheet" href="/styles/abstract/reset.css">    
+    <link rel="stylesheet" href="/styles/output/pacotes.css">
+</head>
+<body>
+    <header class="header"> 
+        <div class="header__wrapper"> 
+            <a href="/index.html" class="header__logo" aria-label="Jornada home">
+                <img class="header__logo--icon" alt="Logo da Jornada" src="/assets/logos/logobranco-1@2x.png">
+                <img class="header__logo--icon" alt="Logo da Jornada" src="/assets/logos/logo-white.svg">
+            </a>
+             
+            <nav class="cabecalho__navegacao" role="navigation" aria-label="Navegação principal">
+                <ul class="cabecalho__navegacao--lista">
+                    <li class="cabecalho__navegacao--item">
+                        <a href="/index.html">Home</a>
+                    </li>
+                    <li class="cabecalho__navegacao--item">
+                        <a href="/pages/blog.html">Blog</a>
+                    </li>
+                    <li class="cabecalho__navegacao--item">
+                        <a href="/pages/pacotes.html">Pacotes de viagem</a>
+                    </li>
+                    <li class="cabecalho__navegacao--item">
+                        <a href="/pages/contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner">
+        <picture>
+            <source media="(max-width: 360px)" srcset="/assets/pacotes/banner-destinations-360.png">
+            <source media="(max-width: 768px)" srcset="/assets/pacotes/banner-destinations-768.png">
+            <source media="(max-width: 1440px)" srcset="/assets/pacotes/banner-destinations-1440.png">
+            <img class="banner__img" alt src="/assets/pacotes/banner-destinations-1920.png" />
+        </picture>
+        <div class="banner__content--wrapper">
+            <header class="banner__title">
+                <h1 class="banner__title--text">Conheça o Japão!</h1>
+                <div class="banner__title--underline"></div>
+            </header>
+            <p class="banner__text">A Jornada possui o pacote perfeito para seu estilo e orçamento! Conheça as belas paisagens e a  cultura milenar deste belo país!</p>
+        </div>
+    </section>
+    <main class="main">
+        <section class="destinations">
+            <div class="section__title">
+                <h2 class="section__title--text">Destinos da Excursão</h2>
+                <div class="section__title--underline"></div>
+            </div>
+            <div class="destinations__list">
+                <section class="destinations__item">
+                    <picture>
+                        <source media="(max-width: 360px)" srcset="/assets/pacotes/tokyo-312.png">
+                        <source media="(max-width: 768px)" srcset="/assets/pacotes/tokyo-648.png">
+                        <img class="destinations__item--image" alt src="/assets/pacotes/tokyo-588.png" />
+                    </picture>
+                    <h3 class="destinations__item--name">Tokyo</h3>
+                    <p class="destinations__item--desc">
+                        Tóquio é uma cidade vibrante e cosmopolita, com seus templos
+                        históricos, museus de arte moderna e arranha-céus icônicos.
+                        Não perca a chance de mergulhar em sua atmosfera fascinante.
+                    </p>
+                    <a href="" class="cta-button changing" aria-label="Ver detalhes - Tokyo">Ver detalhes</a>
+                </section>
+                <section class="destinations__item">
+                    <picture>
+                        <source media="(max-width: 360px)" srcset="/assets/pacotes/osaka-312.png">
+                        <source media="(max-width: 768px)" srcset="/assets/pacotes/osaka-648.png">
+                        <img class="destinations__item--image" alt src="/assets/pacotes/osaka-588.png" />
+                    </picture>
+                    <h3 class="destinations__item--name">Osaka</h3>
+                    <p class="destinations__item--desc">
+                        Osaka é uma cidade agitada e moderna no Japão. A cidade é
+                        famosa por sua gastronomia deliciosa e por ser um excelente
+                        ponto de partida para explorar outras cidades japonesas
+                        próximas.
+                    </p>
+                    <a href="" class="cta-button changing" aria-label="Ver detalhes - Osaka">Ver detalhes</a>
+                </section>
+            </div>
+        </section>
+        <section class="payment">
+            <header class="section__title">
+                <h2 class="section__title--text">Pagamento</h2>
+                <div class="section__title--underline"></div>
+            </header>
+            <div class="payment__conditions">
+                <section class="payment__conditions--desc">
+                    <h3 class="payment__conditions--title">R$4000</h3>
+                    <h4 class="payment__conditions--subtitle">Em até 12x!</h4>
+                    <p class="payment__conditions--details">
+                        Viaje pagando em até 12 parcelas no cartão, à vista no crédito com 5% de desconto ou no Pix com 10% de desconto! 
+                    </p>
+                </section>
+                <div class="payment__images" aria-hidden="true">
+                    <div class="payment__images--group">
+                        <picture>
+                            <source media="(max-width: 360px)" srcset="../assets/img/payment/payment-destinations-2-144.png">
+                            <source media="(max-width: 768px)" srcset="../assets/img/payment/payment-destinations-2-312.png">
+                            <img class="payment__images--image" alt src="../assets/img/payment/payment-destinations-2-384.png" />
+                        </picture>
+                        <picture>
+                            <source media="(max-width: 360px)" srcset="/assets/pagamentos/payment-destinations-1-144.png">
+                            <source media="(max-width: 768px)" srcset="/assets/pagamentos/payment-destinations-1-312.png">
+                            <img class="payment__images--image" alt src="/assets/pagamentos/payment-destinations-1-384.png" />
+                        </picture>
+                    </div>
+                    <picture>
+                        <source media="(max-width: 360px)" srcset="/assets/pagamentos/payment-destinations-312.png">
+                        <source media="(max-width: 768px)" srcset="/assets/pagamentos/payment-destinations-648.png">
+                        <img class="payment__images--image highlight" alt src="/assets/pagamentos/payment-destinations-790.png" />
+                    </picture>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials">
+            <header class="section__title">
+                <h2 class="section__title--text">Depoimentos</h2>
+                <div class="section__title--underline"></div>
+            </header>
+            <div class="testimonials__wrapper">
+                <div class="testimonials__item">
+                    <p class="testimonials__text">
+                        Tive uma experiência inesquecível. O pacote Japão me permitiu explorar  de templos antigos a cidades modernas. E o valor coube no bolso, recomendo!
+                    </p>
+                    <div class="testimonials__author">
+                        <img class="testimonials__author--picture" alt src="/assets/testemunhas/julio.png" />
+                        <p class="testimonials__author--name">Júlio Garibaldi</p>
+                        <img class="testimonials__author--rating" alt="Avaliação: 5 estrelas" src="/assets/logos/5-stars.svg" />
+                    </div>
+                </div>
+                <div class="testimonials__item">
+                    <p class="testimonials__text">
+                        Minha viagem para Tóquio foi incrível. O itinerário personalizado me permitiu muito em pouco tempo. Excedeu minhas expectativas e já quero viajar com a Jornada novamente!
+                    </p>
+                    <div class="testimonials__author">
+                        <img class="testimonials__author--picture" alt src="/assets/testemunhas/lucia.png" />
+                        <p class="testimonials__author--name">Lúcia S. Rabello</p>
+                        <img class="testimonials__author--rating" alt="Avaliação: 5 estrelas" src="/assets/logos/5-stars.svg" />
+                    </div>
+                </div>
+                <div class="testimonials__item">
+                    <p class="testimonials__text">
+                        Minha viagem para Osaka foi inesquecível! A Jornada organizou tudo de forma perfeita, recomendo de olhos fechados!
+                    </p>
+                    <div class="testimonials__author">
+                        <img class="testimonials__author--picture" alt src="/assets/testemunhas/olga.png" />
+                        <p class="testimonials__author--name">Olga dos Reis</p>
+                        <img class="testimonials__author--rating" alt="Avaliação: 5 estrelas" src="/assets/logos/5-stars.svg" />
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <picture>
+        <source media="(max-width: 360px)" srcset="/assets/rodape/pre-footer-destinations-360.png">
+        <source media="(max-width: 768px)" srcset="/assets/rodape/pre-footer-destinations-768.png">
+        <source media="(max-width: 1440px)" srcset="/assets/rodape/pre-footer-destinations-1440.png">
+        <img class="pre-footer__image" alt src="/assets/rodape/pre-footer-destinations-1920.png" />
+    </picture>
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__logo-wrapper">
+                <img class="footer__logo-icon" alt="Logo da Jornada" src="/assets/logos/logo-white.svg" />
+                <p class="footer__text-info">Horário de atendimento: 08h - 20h (Segunda a Sábado)</p>
+                <p class="footer__text-info">Desenvolvido por Kleber Rafael como parte do curso de Front end.</br> 
+                    Projeto fictício sem fins comerciais.
+            </div>
+            <div class="footer__social-media-wrapper">
+                <p class="footer__social-media-text">Acesse nossas redes:</p>
+                <ul class="footer__social-media-icons">
+                    <li>
+                        <a href="https://wa.me/16991430347/?text=Vim pelo Jornada Viagens" target="_blank">
+                        <img class="footer__social-media-icon" alt="" src="/assets/logos/whatsapp-1.svg" />
+                        </a>
+                    </li>
+                    <li>
+                        <img class="footer__social-media-icon" alt="" src="/assets/logos/instragam-1.svg" />
+                    </li>
+                    <li>
+                        <img class="footer__social-media-icon" alt="" src="/assets/logos/twiter-1.svg" />
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
